@@ -31,7 +31,8 @@
     display: none;
   }
   header {
-    margin: 0 auto 20px
+    margin: 0 auto 20px;
+    /* display: none; */
   }
   input[type="text"] {
     width: 70%;
@@ -63,7 +64,7 @@
     <p class="line">
     <input type="text" id="eventsource" placeholder="copy/paste the url and press fetch...">
     <button id="fetch">fetch</button><br>
-    <label>Cors ignored?<input type="checkbox" id="cors-enabled" checked="checked"></label>
+    <label style="display:none">Cors ignored?<input type="checkbox" id="cors-enabled"></label>
     </p>
     <p>
     <label for="myfile">or select local file</label>
